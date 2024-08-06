@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+		/* variables */
+		:root{ --colorOne: #ffffff; --colorTwo: #d6e2f0; --colorThree: #68778d; --colorFour: #1f3251; }
+
+		/* reset */
+		*{ margin: 0; padding: 0; box-sizing: border-box; text-decoration: none; }
+
+		/* fonts */
+		@font-face { font-family: 'Outfit'; src: url('Outfit-Regular.ttf'); }
+
+    /* hide styles */
+		@media screen and (min-width: 1px){ body{ display: none; } }
+
+		/* basic styles */
+		@media screen and (min-width: 320px){
+			body { display: block; width: 100%; height: 100vh; overflow: hidden; background: var(--colorTwo); font-family: 'Outfit'; }
+			section { margin: 40px auto; width: 300px; height: auto; padding: 20px; background: var(--colorOne); border-radius: 15px; color: var(--colorFour); text-align: center; }
+			img { width: 100%; border-radius: 10px; margin-bottom:15px; }
+			h3 { font-size: 22px }
+			p { font-weight: normal; margin: 15px 0; color: var(--colorThree);}
+	    div { position: fixed; bottom: 0; width: 100%; background: var(--colorOne); font-size: 11px; text-align: center; }
+	    div a { color: var(--colorThree); }
+		}
+  </style>
+</head>
+<body>
+	<section>
+		<img src="images/image-qr-code.png">
+		<h3>
+		  Improve your front-end skills by building projects
+		</h3>
+		<p>
+		  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+		</p>
+	</section>
+  <div>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Abasifreke Jimmy</a>.
+  </div>
+</body>
+</html>
