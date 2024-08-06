@@ -7,26 +7,26 @@
   <title>Frontend Mentor | QR code component</title>
   <style>
 		/* variables */
-		:root { --colorOne: #ffffff; --colorTwo: #d6e2f0; --colorThree: #68778d; --colorFour: #1f3251; }
-
-		/* reset */
-		* { margin: 0; padding: 0; box-sizing: border-box; text-decoration: none; }
+		:root { --white: #ffffff; --dark: #68778d;}
 
 		/* fonts */
 		@font-face { font-family: 'Outfit'; src: url('Outfit-Regular.ttf'); }
+
+		/* reset */
+		* { margin: 0; padding: 0; box-sizing: border-box; text-decoration: none; }
 
     /* hide styles */
 		@media screen and (min-width: 1px){ body{ display: none; } }
 
 		/* basic styles */
 		@media screen and (min-width: 320px){
-			body { display: block; width: 100%; height: 100vh; overflow: hidden; background: var(--colorTwo); font-family: 'Outfit'; }
-			section { margin: 40px auto; width: 300px; height: auto; padding: 20px; background: var(--colorOne); border-radius: 15px; color: var(--colorFour); text-align: center; }
+			body { display: block; width: 100%; height: 100vh; overflow: hidden; background: #d6e2f0; font-family: 'Outfit'; }
+			section { margin: 40px auto; width: 300px; height: auto; padding: 20px; background: var(--white); border-radius: 15px; color: #1f3251; text-align: center; }
 			img { width: 100%; border-radius: 10px; margin-bottom:15px; }
 			h3 { font-size: 22px }
-			p { font-weight: normal; margin: 15px 0; color: var(--colorThree); }
-	    div { position: fixed; bottom: 0; width: 100%; background: var(--colorOne); font-size: 11px; text-align: center; }
-	    div a { color: var(--colorThree); }
+			p { font-weight: normal; margin: 15px 0; color: var(--dark); }
+	    footer { position: fixed; bottom: 0; width: 100%; background: var(--white); font-size: 11px; text-align: center; }
+	    footer a { color: var(--dark); }
 		}
   </style>
 </head>
@@ -40,9 +40,9 @@
 		  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
 		</p>
 	</section>
-  <div>
+  <footer>
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Abasifreke Jimmy</a>.
-  </div>
+  </footer>
 </body>
 </html>
