@@ -52,14 +52,12 @@ I would like to focus on newer and simpler ways of structuring and styling web p
 
 ### Useful resources
 
-- [W3Schools](https://www.w3schools.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [W3Schools](https://www.w3schools.com)
 
 
 ## Author
 
-- Website - [Abasifreke Jimmy](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Abascode)
 
 
 ## Acknowledgments
