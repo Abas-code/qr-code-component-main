@@ -24,8 +24,8 @@ Please, this is my approach to the [QR code component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Abas-code/qr-code-component-main)
+- Live Site URL: [Add live site URL here](https://qr-code-component-main-ruby.vercel.app/)
 
 
 ## My process
@@ -57,7 +57,7 @@ I would like to focus on newer and simpler ways of structuring and styling web p
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Abascode)
+- Frontend Mentor - [@Abas-code](https://www.frontendmentor.io/profile/Abascode)
 
 
 ## Acknowledgments
