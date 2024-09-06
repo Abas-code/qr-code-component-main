@@ -24,8 +24,8 @@ Please, this is my approach to the [QR code component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Abas-code/qr-code-component-main)
-- Live Site URL: [Add live site URL here](https://qr-code-component-main-ruby.vercel.app/)
+- Solution URL: (https://github.com/Abas-code/qr-code-component-main)
+- Live Site URL: (https://qr-code-component-main-ruby.vercel.app/)
 
 
 ## My process
