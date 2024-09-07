@@ -19,8 +19,8 @@ Please, this is my approach to the [QR code component challenge on Frontend Ment
 
 ### Screenshot
 
-![mobile view](./qr-code-mobile-result.jpg)
-![desktop view](./qr-code-desktop-result.jpg)
+![mobile view](./assets/design/qr-code-mobile-result.jpg)
+![desktop view](./assets/design/qr-code-desktop-result.jpg)
 
 ### Links
 

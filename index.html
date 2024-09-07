@@ -3,14 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <title>Frontend Mentor | QR code component</title>
   <style>
 		/* variables */
-		:root { --white: #ffffff; --dark: #68778d;}
+		:root {
+			--white: #ffffff;
+			--slate-300: #d5e1ef;
+			--slate-500: #68778d;
+			--slate-900: #1f314f;
+		}
 	
 		/* fonts */
-		@font-face { font-family: 'Outfit'; src: url('Outfit-Regular.ttf'); }
+		@font-face { font-family: 'Outfit'; src: url('assets/Outfit-Regular.ttf'); }
 	
 		/* reset */
 		* {
@@ -18,7 +23,8 @@
 			padding: 0;
 			box-sizing: border-box;
 			text-decoration: none;
-			font-size: 14px;
+			font-size: 15px;
+			color: var(--slate-500);
 		}
 	
 	  /* hide styles */
@@ -30,7 +36,7 @@
 				display: block;
 				width: 100%;
 				height: 100vh;
-				background: #d6e2f0;
+				background: var(--slate-300);
 				font-family: 'Outfit';
 			}
 			section {
@@ -38,20 +44,23 @@
 				justify-content: center;
 				align-items: center;
 				width: 100%;
-				height: 95%;
+				height: 100%;
 			}
-			div {
-				width: 300px;
+			.container {
+				width: 320px;
 				height: auto;
-				padding: 20px;
+				padding: 16px;
 				background: var(--white);
-				border-radius: 15px;
-				color: #1f3251;
-				text-align: center;
+				border-radius: 20px;
 			}
-			img { width: 100%; border-radius: 10px; margin-bottom:15px; }
-			h3 { font-size: 22px }
-			p { font-weight: normal; margin: 15px 0; color: var(--dark); }
+			img { width: 100%; border-radius: 10px; }
+			.text { padding: 24px 16px; text-align: center; }
+			h1 {
+				padding-bottom: 16px;
+				font-size: 22px;
+				font-weight: bold;
+				color: var(--slate-900);
+			}
 			footer {
 				position: fixed;
 				bottom: 0;
@@ -61,19 +70,22 @@
 				font-size: 11px;
 				text-align: center;
 			}
-			footer a { color: var(--dark); font-size: 11px; }
+			footer a { color: var(--slate-900); font-size: 11px; }
 		}
 
-	  /* hide styles */
-		@media screen and (min-width: 425px) { footer, footer a { font-size: 14px; } }
+	  /* >mobile styles */
+		@media screen and (min-width: 425px) { footer, footer a { font-size: 15px; } }
 	</style>
 </head>
 <body>
 	<section>
-		<div>
-			<img src="images/image-qr-code.png">
-			<h3>Improve your front-end skills by building projects</h3>
-			<p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+		<div class="container">
+			<img src="assets/images/image-qr-code.png">
+
+			<div class="text">
+				<h1>Improve your front-end skills by building projects</h3>
+				<p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+			</div>
 		</div>
 	</section>
 
